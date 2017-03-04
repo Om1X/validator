@@ -14,7 +14,7 @@ body {
   font-family: "Raleway", sans-serif;
   text-align: center;
   color: #555;
-  margin: 30px auto;
+  padding: 30px 0;
 }
 .formWrap {
   width: 400px;
@@ -43,6 +43,7 @@ input {
   width: 150px;
   outline: none;
   border: 1px solid #555;
+  padding: 0 10px;
 }
 input:focus {
   transform: scale(1.05);
@@ -67,14 +68,17 @@ textarea:focus {
   height: 20px;
 }
 .errorBlock {
-  width: 400px;
+  top: 10%;
   color: #FF1919;
   text-align: center;
-  display: none;
 }
 .success {
   background: #0DFF96;
 }
 .error {
   background: #FF1919;
+}
+footer {
+  text-align: center;
+  padding: 30px;
 }
