@@ -68,7 +68,6 @@ textarea:focus {
   height: 20px;
 }
 .errorBlock {
-  top: 10%;
   color: #FF1919;
   text-align: center;
 }
